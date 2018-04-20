@@ -1,0 +1,81 @@
+{
+  "rooms": [
+    {
+      "id": "0",
+      "room": "100",
+      "available": true,
+      "purchaseSum": "0",
+      "purchaseDeprecation": false,
+      "guest": {
+        "firstName": "Quentin",
+        "lastName": "Tarantino"
+      }
+    },
+    {
+      "id": "1",
+      "room": "101",
+      "available": true,
+      "purchaseSum": "0",
+      "purchaseDeprecation": false,
+      "guest": {
+        "firstName": "Tim",
+        "lastName": "Roth"
+      }
+    },
+    {
+      "id": "2",
+      "room": "102",
+      "available": true,
+      "purchaseSum": "0",
+      "purchaseDeprecation": false,
+      "guest": {
+        "firstName": "Madonna",
+        "lastName": "Madonna"
+      }
+    },
+    {
+      "id": "3",
+      "room": "103",
+      "available": true,
+      "purchaseSum": "0",
+      "purchaseDeprecation": false,
+      "guest": {
+        "firstName": "Antonio",
+        "lastName": "Banderas"
+      }
+    },
+    {
+      "id": "4",
+      "room": "200",
+      "available": true,
+      "purchaseSum": "0",
+      "purchaseDeprecation": false,
+      "guest": {
+        "firstName": "Jennifer",
+        "lastName": "Beals"
+      }
+    },
+    {
+      "id": "5",
+      "room": "201",
+      "available": false,
+      "purchaseSum": "10 500",
+      "purchaseDeprecation": true,
+      "guest": {
+        "firstName": "Salma",
+        "lastName": "Hayek"
+      }
+    },
+    {
+      "id": "6",
+      "room": "202",
+      "available": false,
+      "purchaseSum": "237",
+      "purchaseDeprecation": true,
+      "guest": {
+        "firstName": "Valeria",
+        "lastName": "Golino"
+      }
+    }
+  ]
+}

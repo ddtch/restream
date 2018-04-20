@@ -1,0 +1,47 @@
+.room-row{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e7ebeb;
+  border-top: 0;
+  transition: all .3s ease;
+}
+.room-row.header .room-col{
+  padding: 40px 0 10px 0;
+  border-top: 1px solid #e7ebeb;
+  border-right: 0;
+  text-align: center;
+  font-size: 12px;
+}
+.room-row:not(.header):hover{
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 12px 2px rgba(163, 173, 204, .25);
+}
+
+.room-row .room-col{
+  border-right: 1px solid #e7ebeb;
+  width: 30%;
+  padding: 16px;
+  font-size: 14px;
+  text-align: left;
+}
+.room-row .room-col:last-child{
+  border-right: none;
+  align-items: center;
+}
+.room-row .room-col.purchase-status{
+  text-align: center;
+}
+
+.ball{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+  background: #517ee8;
+}
+.ball.green{
+  background: #84e851;
+}
